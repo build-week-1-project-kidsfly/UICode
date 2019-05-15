@@ -306,4 +306,17 @@ p {
 .top-img .kids-airport {
   width: 100%;
 }
+.red-box {
+  background-color: #AD85F8;
+  height: 915px;
+}
+.red-box .three-boxs {
+  display: flex;
+}
+.red-box .three-boxs .red-box-each {
+  height: 330px;
+}
+.red-box .three-boxs .red-box-each img {
+  margin: 10% 0px 0px 30%;
+}
 /*# sourceMappingURL=index.css.map */
