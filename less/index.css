@@ -307,8 +307,16 @@ p {
 footer {
   display: flex;
   width: 100%;
-  height: 600px;
+  height: 550px;
   background-color: #2A3037;
+}
+footer .mapouter {
+  margin-left: 30px;
+}
+footer .mapouter .gmap_canvas {
+  border: 5px solid #AD85F8;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px grey;
 }
 footer .footer-title {
   margin: 30px 0px 20px 0px;
@@ -321,6 +329,7 @@ footer .additional-footer {
   display: flex;
   flex-direction: column;
   margin: 70px 0px 0px 155px;
+  /* Colors for Hover over each social media button */
 }
 footer .additional-footer .fa {
   padding: 25px;
