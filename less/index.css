@@ -90,6 +90,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Open Sans', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -306,17 +307,56 @@ p {
 .top-img .kids-airport {
   width: 100%;
 }
+.purple-bar {
+  height: 110px;
+  background-color: #AD85F8;
+}
 .red-box {
   background-color: #AD85F8;
-  height: 915px;
+  height: 660px;
 }
 .red-box .three-boxs {
   display: flex;
 }
 .red-box .three-boxs .red-box-each {
-  height: 330px;
+  width: 457px;
+  height: 400px;
 }
 .red-box .three-boxs .red-box-each img {
-  margin: 10% 0px 0px 30%;
+  margin: 50px 0px 50px 150px;
+}
+.red-box .three-boxs .red-box-each h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.red-box .three-boxs .red-box-each p {
+  width: 280px;
+  height: 80px;
+  text-align: center;
+  margin: 0 auto;
+}
+.red-box .two-boxs {
+  padding-top: 88px;
+  padding-bottom: 88px;
+  display: flex;
+  justify-content: center;
+}
+.red-box .two-boxs button {
+  width: 230px;
+  height: 65px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 2rem;
+  background-color: #E94472;
+  color: white;
+  background-image: linear-gradient(#E94472, purple);
+}
+#first-left-border {
+  border-left: 1px solid white;
+}
+#second-left-border {
+  border-left: 1px solid white;
 }
 /*# sourceMappingURL=index.css.map */
