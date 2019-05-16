@@ -47,7 +47,6 @@
       margin: 10px;
       border-radius: 10px;
       font-size: 2.0rem;
-      background-color: @red;
       color: white;
       background-image: linear-gradient(@red, purple);
     }
@@ -77,4 +76,44 @@
       margin-bottom: 80px;
     }
   }
+  .six-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    section {
+      width: 400px;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        border: 5px solid @purple;
+        margin-bottom: 60px;
+      }
+      h5 {
+        font-size: 2.0rem;
+        margin-bottom: 40px;
+      }
+      p {
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      button {
+        width: 170px;
+        height: 50px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        color: white;
+        background-image: linear-gradient(@red, purple);
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: @black;
 }
