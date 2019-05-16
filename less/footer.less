@@ -3,13 +3,52 @@
 footer {
   display: flex;
   width: 100%;
-  height: 900px;
+  height: 600px;
   background-color: @black;
-}
-.footer-title {
-  margin: 20px 0px 20px 0px;
-  h3 {
-    color: white;
-    margin-right: 70%;
+  .footer-title {
+    margin: 30px 0px 20px 0px;
+    h3 {
+      color: white;
+      margin-right: 70%;
+    }
+  }
+  // Container for social buttons
+  .additional-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0px 0px 155px;
+    .fa {
+      padding: 25px;
+      margin: 5px;
+      font-size: 30px;
+      width: 80px;
+      height: 80px;
+      border: 1px solid white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      color: white;
+    }
+    .fa.fa-google:hover {
+      border: 1px solid @google-green;
+      color:@google-green;
+    }
+    .fa.fa-youtube:hover {
+      border: 1px solid @youtube-red;
+      color: @youtube-red;
+    }
+    .fa.fa-facebook:hover {
+      border: 1px solid @facebook-blue;
+      color: @facebook-blue;
+    }
+    .fa.fa-instagram:hover {
+      border: 1px solid @instagram-purple;
+      color: @instagram-purple;
+    }
+    .fa.fa-pinterest:hover {
+      border: 1px solid @pinterest-red;
+      color: @pinterest-red;
+    }
   }
 }
+
