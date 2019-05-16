@@ -45,10 +45,14 @@
       height: 65px;
       font-family: 'Open Sans', sans-serif;
       margin: 10px;
-      border-radius: 10px;
+      border-radius: 20px;
       font-size: 2.0rem;
+      color: @red;
+      background-color: white;
+    }
+    button:hover {
+      background-color: @red;
       color: white;
-      background-image: linear-gradient(@red, purple);
     }
   }
 }
@@ -102,11 +106,15 @@
       button {
         width: 170px;
         height: 50px;
-        font-size: 1.5rem;
-        border-radius: 10px;
+        font-size: 1.8rem;
+        border-radius: 20px;
         color: white;
-        background-image: linear-gradient(@red, purple);
+        background-color: @purple;
         font-family: 'Open Sans', sans-serif;
+      }
+      button:hover {
+        color: white;
+        background-color: @red;
       }
     }
   }
