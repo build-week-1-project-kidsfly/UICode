@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Kidsfly" content="Buildweek 1 Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="Homepage.css">
+  </head>
+  <body>
+
+    <!-- Solid Navbar -->
+    <nav class="navBar">
+      <ul>
+        <li><a class="navLeft" href=#>Kidsfly</a></li>
+        <li><a class="navRight"href=#>Home</a></li>
+        <li><a class="navRight"href=#>Services</a></li>
+        <li><a class="navRight"href=#>FAQ</a></li>
+        <li><a class="navRight"href=#>Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Image -->
+    <section>
+      <div class="main">
+        <img id="mainImg" src="Pictures/HomepagePhoto.jpg" alt="Looking out at colorful sky from side of airplane wing">
+        <form action="#" method="post">
+          <h1>Please fill in the information below to get started with Kidsfly:</h1><br />
+
+          <P>Username and Password</P>
+          <label for="Username">Create a username:</label>
+          <input  type="text" name="Username" placeholder="8-16 characters" required
+          minlength="8" maxlength="16" size="16"><br />
+
+          <label for="Password">Create a password:</label>
+          <input  class="indentForm" type="password" placeholder="8-16 characters" name="Password" required
+          minlength="8" maxlength="16" size="16"><br />
+
+          <P>Contact information</P>
+          <label for="Firstname">First name:</label>
+          <input  type="text" name="Firstname" placeholder="Enter first name here" required
+          size="30"><br />
+
+          <label for="Lastname">Last name:</label>
+          <input  type="text" name="Lastname" placeholder="Enter last name here" required
+          size="30"><br />
+
+          <label for="adress1">Address:</label>
+          <input type="text" id="adress1" name="address1" placeholder="Number and street" size="30" required><br />
+
+          <label for="adress2"></label>
+          <input type="text" id="adress2" name="address2" placeholder="City, state and zip" size="30" required><br />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter email here" required><br />
+
+          <label for"phone">Phone number:</label>
+          <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br />
+
+          <label for="kid">How many Kids?</label>
+          <input list="kid-list" id="kid" name="kid" />
+          <datalist id="kid-list">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9 or more">
+          </datalist><br />
+
+          <label for="marketing">How did you hear about us?</label>
+          <input class="indentForm" list="marketing-list" id="marketing" name="marketing" />
+          <datalist id="marketing-list">
+              <option value="Friend or Family">
+              <option value="Advertisement">
+              <option value="Email">
+              <option value="Search engine">
+              <option value="Prefer not to say">
+          </datalist><br />
+
+          <input type="submit" value="Set up account">
+        </form>
+      </div>
+    </section>
+   </body>
+ </html>
