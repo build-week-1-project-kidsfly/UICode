@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee44ebc5-ca1f-48cb-8d7d-a6e1f19de2b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/footer.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/home-page.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/home-page.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/navigation.less" afterDir="false" />
-    </list>
+    <list default="true" id="ee44ebc5-ca1f-48cb-8d7d-a6e1f19de2b4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,11 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.6251673">
+    <splitter split-orientation="vertical" split-proportion="0.708166">
       <split-first>
         <splitter split-orientation="horizontal" split-proportion="0.8408922">
           <split-first>
-            <splitter split-orientation="horizontal" split-proportion="0.20194863">
+            <splitter split-orientation="horizontal" split-proportion="0.30265486">
               <split-first>
                 <splitter split-orientation="horizontal" split-proportion="0.5808581">
                   <split-first>
@@ -32,7 +24,7 @@
                       <file pinned="false" current-in-tab="true">
                         <entry file="file://$PROJECT_DIR$/less/variables.less">
                           <provider selected="true" editor-type-id="text-editor">
-                            <state relative-caret-position="-124">
+                            <state relative-caret-position="1">
                               <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
                             </state>
                           </provider>
@@ -69,7 +61,7 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/less/footer.less">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="343">
+                        <state relative-caret-position="113">
                           <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
                         </state>
                       </provider>
@@ -205,12 +197,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557877426020</updated>
       <workItem from="1557877430100" duration="2864000" />
-      <workItem from="1557882757422" duration="58295000" />
+      <workItem from="1557882757422" duration="59003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61159000" />
+    <option name="totallyTimeSpent" value="61867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -297,7 +289,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
+        <state relative-caret-position="1">
           <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
@@ -325,7 +317,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/footer.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="113">
           <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
