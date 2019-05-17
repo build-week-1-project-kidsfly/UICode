@@ -1,3 +1,4 @@
+/* Title & Nav Bar */
 .title-nav-bar {
   display: flex;
   justify-content: space-between;
@@ -15,15 +16,84 @@
   background-color: @title-nav-bar;
   nav {
     margin-right: 50px;
+    display: flex;
+    justify-items: center;
     a {
+      //width: 10%;
       width: 10%;
       color: white;
       text-decoration: none;
       font-size: 1.8rem;
       font-family: 'Open Sans', sans-serif;
       padding: 15px 0px 15px 0px;
-      margin: 0px 20px 0px 20px;
+      margin: 0px 30px 0px 30px; //20px
       text-align: center;
     }
   }
+}
+
+/* Drop Down Button on Nav Bar */
+.dropdown {
+  //float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  border-radius: 5px;
+}
+.dropbtn:hover {
+  color: @red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white; //#f9f9f9
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#dropa1 {
+  width: 60%;
+  color: @purple;
+}
+#dropa1:hover {
+  color: @red;
+}
+#dropa2 {
+  width: 60%;
+  color: @purple;
+}
+#dropa2:hover {
+  color: @red;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
