@@ -4,13 +4,11 @@
     <list default="true" id="ee44ebc5-ca1f-48cb-8d7d-a6e1f19de2b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/footer.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/home-page.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/home-page.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/navigation.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/reset.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/variables.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,63 +20,87 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6609665">
+    <splitter split-orientation="vertical" split-proportion="0.6251673">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-97">
-                  <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.8408922">
+          <split-first>
+            <splitter split-orientation="horizontal" split-proportion="0.20194863">
+              <split-first>
+                <splitter split-orientation="horizontal" split-proportion="0.5808581">
+                  <split-first>
+                    <leaf>
+                      <file pinned="false" current-in-tab="true">
+                        <entry file="file://$PROJECT_DIR$/less/variables.less">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="-124">
+                              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                      <file pinned="false" current-in-tab="false">
+                        <entry file="file://$PROJECT_DIR$/less/reset.less">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="3050">
+                              <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                    </leaf>
+                  </split-first>
+                  <split-second>
+                    <leaf>
+                      <file pinned="false" current-in-tab="true">
+                        <entry file="file://$PROJECT_DIR$/less/navigation.less">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="161">
+                              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                    </leaf>
+                  </split-second>
+                </splitter>
+              </split-first>
+              <split-second>
+                <leaf>
+                  <file pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/less/footer.less">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="343">
+                          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-second>
+            </splitter>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/less/home-page.less">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="313">
+                      <caret line="138" column="20" lean-forward="true" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/variables.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/reset.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="364">
-                  <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/home-page.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/footer.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/less/navigation.less">
+            <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+                <state relative-caret-position="277">
+                  <caret line="114" column="51" lean-forward="true" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -113,12 +135,12 @@
         <option value="$PROJECT_DIR$/less/global.less" />
         <option value="$PROJECT_DIR$/js/navBarSticky.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/index.html" />
-        <option value="$PROJECT_DIR$/less/footer.less" />
-        <option value="$PROJECT_DIR$/less/home-page.less" />
         <option value="$PROJECT_DIR$/less/reset.less" />
         <option value="$PROJECT_DIR$/less/variables.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/navigation.less" />
+        <option value="$PROJECT_DIR$/less/home-page.less" />
+        <option value="$PROJECT_DIR$/less/footer.less" />
       </list>
     </option>
   </component>
@@ -183,12 +205,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557877426020</updated>
       <workItem from="1557877430100" duration="2864000" />
-      <workItem from="1557882757422" duration="52028000" />
+      <workItem from="1557882757422" duration="58295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54892000" />
+    <option name="totallyTimeSpent" value="61159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -263,45 +285,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/footer.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/less/reset.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="3050">
           <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="-124">
           <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/home-page.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/navigation.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        <state relative-caret-position="161">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/home-page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="138" column="20" lean-forward="true" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="114" column="51" lean-forward="true" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/footer.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
     </entry>

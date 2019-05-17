@@ -286,6 +286,11 @@ p {
   height: 60px;
   background-color: #2A3037;
 }
+@media (max-width: 800px) {
+  .title-nav-bar {
+    max-width: 100%;
+  }
+}
 .title-nav-bar h1 {
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -325,6 +330,7 @@ p {
 .dropdown:hover .dropbtn {
   background-color: white;
   border-radius: 5px;
+  color: #E94472;
 }
 .dropbtn:hover {
   color: #E94472;
@@ -375,23 +381,50 @@ footer {
 footer .mapouter {
   margin-left: 30px;
 }
+@media (max-width: 800px) {
+  footer .mapouter {
+    max-width: 800px;
+  }
+}
 footer .mapouter .gmap_canvas {
   border: 5px solid #AD85F8;
   border-radius: 10px;
   box-shadow: 10px 10px 5px grey;
 }
+@media (max-width: 800px) {
+  footer .mapouter .gmap_canvas {
+    width: 600px;
+    height: 400px;
+  }
+}
 footer .footer-title {
   margin: 30px 0px 20px 0px;
+}
+@media (max-width: 800px) {
+  footer .footer-title {
+    margin: 30px 90px 20px 0px;
+  }
 }
 footer .footer-title h3 {
   color: white;
   margin-right: 70%;
+}
+@media (max-width: 800px) {
+  footer .footer-title h3 {
+    margin-right: 60%;
+    text-align: start;
+  }
 }
 footer .additional-footer {
   display: flex;
   flex-direction: column;
   margin: 70px 0px 0px 155px;
   /* Colors for Hover over each social media button */
+}
+@media (max-width: 800px) {
+  footer .additional-footer {
+    margin: 30px 40px 0px 0px;
+  }
 }
 footer .additional-footer .fa {
   padding: 25px;
@@ -404,6 +437,13 @@ footer .additional-footer .fa {
   text-decoration: none;
   border-radius: 50%;
   color: white;
+}
+@media (max-width: 800px) {
+  footer .additional-footer .fa {
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+  }
 }
 footer .additional-footer .fa.fa-google:hover {
   border: 1px solid #0F9D58;
@@ -444,6 +484,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
   color: white;
   text-shadow: 2px 2px 4px #AD85F8;
 }
+@media (max-width: 800px) {
+  .top-img h1 p {
+    font-size: 3.7rem;
+  }
+}
 .purple-bar {
   height: 110px;
   background-color: #AD85F8;
@@ -459,8 +504,18 @@ footer .additional-footer .fa.fa-pinterest:hover {
   width: 457px;
   height: 400px;
 }
+@media (max-width: 800px) {
+  .red-box .three-boxs .red-box-each {
+    max-width: 266px;
+  }
+}
 .red-box .three-boxs .red-box-each img {
   margin: 50px 0px 50px 150px;
+}
+@media (max-width: 800px) {
+  .red-box .three-boxs .red-box-each img {
+    margin: 50px 0px 50px 60px;
+  }
 }
 .red-box .three-boxs .red-box-each h3 {
   color: white;
@@ -473,6 +528,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
   text-align: center;
   margin: 0 auto;
   color: white;
+}
+@media (max-width: 800px) {
+  .red-box .three-boxs .red-box-each p {
+    max-width: 226px;
+  }
 }
 .red-box .two-boxs {
   padding-top: 88px;
@@ -529,6 +589,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 800px) {
+  .top-main-content .six-sections section {
+    width: 800px;
+  }
+}
 .top-main-content .six-sections section img {
   border: 5px solid #AD85F8;
   margin-bottom: 60px;
@@ -543,6 +608,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
   text-align: center;
   height: 190px;
   color: #E94472;
+}
+@media (max-width: 800px) {
+  .top-main-content .six-sections section p {
+    width: 700px;
+  }
 }
 .top-main-content .six-sections section button {
   width: 170px;

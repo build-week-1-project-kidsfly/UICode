@@ -6,6 +6,9 @@
   position: fixed;
   top: 0;
   width: 100%;
+  @media @tablet {
+    max-width: 100%;
+  }
   h1 {
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -52,6 +55,7 @@
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: white;
   border-radius: 5px;
+  color: @red;
 }
 .dropbtn:hover {
   color: @red;

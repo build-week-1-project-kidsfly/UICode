@@ -15,6 +15,9 @@
       font-family: 'Open Sans', sans-serif;
       color: white;
       text-shadow: 2px 2px 4px @purple;
+      @media @tablet {
+        font-size: 3.7rem;
+      }
     }
   }
 }
@@ -31,9 +34,15 @@
     display: flex;
     .red-box-each {
       width: 457px;
+      @media @tablet {
+        max-width: 266px;
+      }
       height: 400px; //330px
       img {
         margin: 50px 0px 50px 150px;
+        @media @tablet {
+          margin: 50px 0px 50px 60px;
+        }
       }
       h3 {
         color: white;
@@ -46,6 +55,9 @@
         text-align: center;
         margin: 0 auto;
         color: white;
+        @media @tablet {
+          max-width: 226px;
+        }
       }
     }
   }
@@ -108,6 +120,9 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      @media @tablet {
+        width: 800px;
+      }
       img {
         border: 5px solid @purple;
         margin-bottom: 60px;
@@ -122,6 +137,9 @@
         text-align: center;
         height: 190px;
         color: @red;
+        @media @tablet {
+          width: 700px;
+        }
       }
       button {
         width: 170px;
