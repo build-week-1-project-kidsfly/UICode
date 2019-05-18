@@ -3,12 +3,20 @@
 footer {
   display: flex;
   width: 100%;
-  height: 550px;
+  height: 1550px;
   background-color: @black;
+  @media @phone {
+    flex-direction: column;
+    height: 650px;
+  }
   .mapouter {
     margin-left: 30px;
     @media @tablet {
       max-width: 800px;
+    }
+    @media @phone {
+      max-width: 400px;
+      margin-left: 10%;
     }
     .gmap_canvas {
       border: 5px solid @purple;
@@ -16,6 +24,10 @@ footer {
       box-shadow: 10px 10px 5px grey;
       @media @tablet {
         width: 600px;
+        height: 400px;
+      }
+      @media @phone {
+        width: 400px;
         height: 400px;
       }
     }
@@ -32,6 +44,10 @@ footer {
         margin-right: 60%;
         text-align: start;
       }
+      @media @phone {
+        text-align: start;
+        //margin-left: 30%;
+      }
     }
   }
   // Container for social buttons
@@ -41,6 +57,11 @@ footer {
     margin: 70px 0px 0px 155px;
     @media @tablet {
       margin: 30px 40px 0px 0px;
+    }
+    @media @phone {
+      flex-direction: row;
+      margin: 100px 0px 0px 75px;
+      width: 350px;
     }
     .fa {
       padding: 25px;
