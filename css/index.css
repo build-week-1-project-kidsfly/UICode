@@ -626,6 +626,12 @@ footer .additional-footer .fa.fa-pinterest:hover {
   margin-bottom: 80px;
   color: #E94472;
 }
+@media (max-width: 500px) {
+  .top-main-content .main-content-title h4 {
+    width: 90%;
+    text-align: center;
+  }
+}
 .top-main-content .six-sections {
   display: flex;
   flex-wrap: wrap;
@@ -642,6 +648,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
 @media (max-width: 800px) {
   .top-main-content .six-sections section {
     width: 800px;
+  }
+}
+@media (max-width: 500px) {
+  .top-main-content .six-sections section {
+    width: 500px;
   }
 }
 .top-main-content .six-sections section img {
@@ -662,6 +673,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
 @media (max-width: 800px) {
   .top-main-content .six-sections section p {
     width: 700px;
+  }
+}
+@media (max-width: 500px) {
+  .top-main-content .six-sections section p {
+    width: 400px;
   }
 }
 .top-main-content .six-sections section button {
