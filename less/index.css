@@ -495,6 +495,23 @@ footer .additional-footer .fa.fa-pinterest:hover {
   border: 1px solid #BD081C;
   color: #BD081C;
 }
+/* Sign In Page */
+.sign-in-main {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #AD85F8;
+  height: 900px;
+}
+.sign-in-main form {
+  width: 40%;
+  height: 200px;
+  margin: 300px 0px 0px 70px;
+}
+@media (max-width: 500px) {
+  .sign-in-main {
+    height: 1500px;
+  }
+}
 .top-img {
   background-image: url("../img/kid_in_terminal.jpg");
   background-size: 100% 800px;
