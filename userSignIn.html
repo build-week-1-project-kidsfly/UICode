@@ -15,7 +15,7 @@
 <div class="title-nav-bar">
     <h1>KidsFly</h1>
     <nav>
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <div class="dropdown">
             <button class="dropbtn">For Parents
                 <i class="fa fa-caret-down"></i>
@@ -32,18 +32,35 @@
 
 <div class="sign-in-main">
     <img src="img/terminal_seats_black_white.jpg" alt="black-white-terminal-seats" width="50%" height="900">
-    <form>
-        <h1>Please Sign-In</h1>
-        <br>
-        <label for="Username">Username:</label>
-        <input type="text" name="Username" placeholder="8-16 characters" required minlength="8" maxlength="16" size="16">
-        <br>
+    <div class="sign-in-div">
+        <form>
+            <h1>Parents</h1>
+            <br>
+            <div class="sign-cont" id="sign-in-first-cont">
+                <label class="sign-in-label"  for="Username">Username</label>
+                <input  class="sign-in-input" type="text" name="Username" placeholder="8-16 characters" required minlength="8" maxlength="16" size="16">
+            </div>
+            <br>
 
-        <label for="Password">Password:</label>
-        <input type="password" name="Password" placeholder="8-16 characters" required minlength="8" maxlength="16" size="16">
-        <br>
-        <input type="submit" value="Login">
-    </form>
+            <div class="sign-cont">
+                <label class="sign-in-label" for="Password">Password</label>
+                <input class="sign-in-input" type="password" name="Password" placeholder="8-16 characters" required minlength="8" maxlength="16" size="16">
+            </div>
+            <br>
+            <div class="checkbox">
+                <input id="single-check" type="checkbox" id="remember-me" name="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <br>
+            <button class="sign-in-button" type="submit" value="Login">Sign in</button>
+            <p>Or Sign In Using</p>
+            <div class="social-sign-in">
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </form>
+    </div>
 </div>
 
 

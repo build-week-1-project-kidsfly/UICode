@@ -484,8 +484,8 @@ footer .additional-footer .fa.fa-youtube:hover {
   color: #ff0000;
 }
 footer .additional-footer .fa.fa-facebook:hover {
-  border: 1px solid #6d84b4;
-  color: #6d84b4;
+  border: 1px solid #4267b2;
+  color: #4267b2;
 }
 footer .additional-footer .fa.fa-instagram:hover {
   border: 1px solid #8a3ab9;
@@ -502,10 +502,108 @@ footer .additional-footer .fa.fa-pinterest:hover {
   background-color: #AD85F8;
   height: 900px;
 }
-.sign-in-main form {
+.sign-in-main .sign-in-div {
+  background-color: white;
   width: 40%;
-  height: 200px;
-  margin: 300px 0px 0px 70px;
+  height: 600px;
+  margin: 100px 0px 0px 70px;
+}
+.sign-in-main .sign-in-div form {
+  width: 100%;
+  height: 600px;
+  border-color: white;
+}
+.sign-in-main .sign-in-div form h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #E94472;
+  margin: 20px 0px 30px 0px;
+}
+.sign-in-main .sign-in-div form .sign-cont {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: start;
+  font-size: 2rem;
+  margin: 0px 0px 0px 78px;
+}
+.sign-in-main .sign-in-div form .sign-cont #sign-in-first-cont {
+  margin: 0px 0px 500px 0px;
+}
+.sign-in-main .sign-in-div form .sign-cont .sign-in-label {
+  margin: 20px 0px 10px 0px;
+}
+.sign-in-main .sign-in-div form .sign-cont .sign-in-input {
+  width: 390px;
+  height: 40px;
+  font-size: 1.7rem;
+  border: none;
+  border-bottom: 2px solid #E94472;
+}
+.sign-in-main .sign-in-div form .checkbox {
+  display: flex;
+  justify-content: start;
+  width: 390px;
+  height: 20px;
+  margin: 10px 0px 0px 78px;
+  font-size: 1.5rem;
+}
+.sign-in-main .sign-in-div form .checkbox #single-check {
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+.sign-in-main .sign-in-div form button {
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  margin: 30px 0px 50px 200px;
+  border-radius: 10px;
+  color: #E94472;
+  border: 1px solid #E94472;
+}
+.sign-in-main .sign-in-div form button:hover {
+  background-image: linear-gradient(to bottom right, #E94472, #AD85F8);
+  color: white;
+}
+.sign-in-main .sign-in-div form p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sign-in-main .sign-in-div form .social-sign-in {
+  text-align: center;
+}
+.sign-in-main .sign-in-div form .social-sign-in .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+.sign-in-main .sign-in-div form .social-sign-in .fa-google {
+  border: 1px solid #DB4437;
+  color: #DB4437;
+}
+.sign-in-main .sign-in-div form .social-sign-in .fa-google:hover {
+  background-color: #DB4437;
+  color: white;
+}
+.sign-in-main .sign-in-div form .social-sign-in .fa-facebook {
+  border: 1px solid #4267b2;
+  color: #4267b2;
+}
+.sign-in-main .sign-in-div form .social-sign-in .fa-facebook:hover {
+  background-color: #4267b2;
+  color: white;
+}
+.sign-in-main .sign-in-div form .social-sign-in .fa-twitter {
+  border: 1px solid #38A1F3;
+  color: #38A1F3;
+}
+.sign-in-main .sign-in-div form .social-sign-in .fa-twitter:hover {
+  background-color: #38A1F3;
+  color: white;
 }
 @media (max-width: 500px) {
   .sign-in-main {
