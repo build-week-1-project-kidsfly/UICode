@@ -3,6 +3,10 @@
   background-size: 100% 800px;
   width: 100%;
   height: 800px;
+  @media @phone {
+    height: 500px;
+    background-size: 100% 500px;
+  }
   .kids-airport {
     width: 100%;
   }
@@ -10,6 +14,9 @@
     text-align: center;
 
     padding-top: 335px; // Originally => 400px
+    @media @phone {
+    padding-top: 220px;
+    }
     p {
       font-size: 6.3rem; // Originally => 7.0px
       font-family: 'Open Sans', sans-serif;
@@ -17,6 +24,10 @@
       text-shadow: 2px 2px 4px @purple;
       @media @tablet {
         font-size: 3.7rem;
+      }
+      @media @phone {
+        font-size: 2.3rem;
+        text-align: center;
       }
     }
   }
@@ -29,19 +40,27 @@
 .red-box {
   background-color: @purple;
   height: 660px;
-  //height: 600px;
+  @media @phone {
+    height: 1500px;
+  }
   .three-boxs {
     display: flex;
+    @media @phone {
+    flex-direction: column;
+    }
     .red-box-each {
       width: 457px;
-      @media @tablet {
-        max-width: 266px;
-      }
       height: 400px; //330px
+      @media @tablet {
+        margin-left: 21px;
+      }
       img {
         margin: 50px 0px 50px 150px;
         @media @tablet {
           margin: 50px 0px 50px 60px;
+        }
+        @media @phone {
+          margin-left: 150px;
         }
       }
       h3 {
@@ -66,6 +85,10 @@
     padding-bottom: 88px;
     display: flex;
     justify-content: center;
+    @media @phone {
+      flex-direction: column;
+      align-items: center;
+    }
 
     button {
       width: 230px;
@@ -87,9 +110,19 @@
 // Vertical white border lines
 #first-left-border {
   border-left: 1px solid white;
+  @media @phone {
+    // Added white borders to top
+    border-top: 1px solid white;
+    border-left: none;
+  }
 }
 #second-left-border {
   border-left: 1px solid white;
+  @media @phone {
+    // Added white borders to top
+    border-top: 1px solid white;
+    border-left: none;
+  }
 }
 
 .top-main-content {

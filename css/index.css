@@ -471,12 +471,23 @@ footer .additional-footer .fa.fa-pinterest:hover {
   width: 100%;
   height: 800px;
 }
+@media (max-width: 500px) {
+  .top-img {
+    height: 500px;
+    background-size: 100% 500px;
+  }
+}
 .top-img .kids-airport {
   width: 100%;
 }
 .top-img h1 {
   text-align: center;
   padding-top: 335px;
+}
+@media (max-width: 500px) {
+  .top-img h1 {
+    padding-top: 220px;
+  }
 }
 .top-img h1 p {
   font-size: 6.3rem;
@@ -489,6 +500,12 @@ footer .additional-footer .fa.fa-pinterest:hover {
     font-size: 3.7rem;
   }
 }
+@media (max-width: 500px) {
+  .top-img h1 p {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+}
 .purple-bar {
   height: 110px;
   background-color: #AD85F8;
@@ -497,8 +514,18 @@ footer .additional-footer .fa.fa-pinterest:hover {
   background-color: #AD85F8;
   height: 660px;
 }
+@media (max-width: 500px) {
+  .red-box {
+    height: 1500px;
+  }
+}
 .red-box .three-boxs {
   display: flex;
+}
+@media (max-width: 500px) {
+  .red-box .three-boxs {
+    flex-direction: column;
+  }
 }
 .red-box .three-boxs .red-box-each {
   width: 457px;
@@ -506,7 +533,7 @@ footer .additional-footer .fa.fa-pinterest:hover {
 }
 @media (max-width: 800px) {
   .red-box .three-boxs .red-box-each {
-    max-width: 266px;
+    margin-left: 21px;
   }
 }
 .red-box .three-boxs .red-box-each img {
@@ -515,6 +542,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
 @media (max-width: 800px) {
   .red-box .three-boxs .red-box-each img {
     margin: 50px 0px 50px 60px;
+  }
+}
+@media (max-width: 500px) {
+  .red-box .three-boxs .red-box-each img {
+    margin-left: 150px;
   }
 }
 .red-box .three-boxs .red-box-each h3 {
@@ -540,6 +572,12 @@ footer .additional-footer .fa.fa-pinterest:hover {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .red-box .two-boxs {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .red-box .two-boxs button {
   width: 230px;
   height: 65px;
@@ -557,8 +595,20 @@ footer .additional-footer .fa.fa-pinterest:hover {
 #first-left-border {
   border-left: 1px solid white;
 }
+@media (max-width: 500px) {
+  #first-left-border {
+    border-top: 1px solid white;
+    border-left: none;
+  }
+}
 #second-left-border {
   border-left: 1px solid white;
+}
+@media (max-width: 500px) {
+  #second-left-border {
+    border-top: 1px solid white;
+    border-left: none;
+  }
 }
 .top-main-content .main-content-title {
   display: flex;
