@@ -507,6 +507,7 @@ footer .additional-footer .fa.fa-pinterest:hover {
   width: 40%;
   height: 600px;
   margin: 100px 0px 0px 70px;
+  border-radius: 10px;
 }
 .sign-in-main .sign-in-div form {
   width: 100%;
