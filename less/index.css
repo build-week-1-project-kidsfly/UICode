@@ -372,6 +372,24 @@ p {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* Collapseable Button */
+.collapse-mechanism {
+  display: none;
+}
+@media (max-width: 500px) {
+  .collapse-mechanism {
+    display: flex;
+  }
+}
+.collapse-mechanism .navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+.collapse-mechanism .fa-1x {
+  font-size: 1.5rem;
+}
+.collapse-mechanism .dark-blue-text {
+  color: white;
+}
 footer {
   display: flex;
   width: 100%;
@@ -502,12 +520,25 @@ footer .additional-footer .fa.fa-pinterest:hover {
   background-color: #AD85F8;
   height: 900px;
 }
+@media (max-width: 800px) {
+  .sign-in-main {
+    height: 800px;
+  }
+  .sign-in-main img {
+    height: 800px;
+  }
+}
 .sign-in-main .sign-in-div {
   background-color: white;
   width: 40%;
   height: 600px;
   margin: 100px 0px 0px 70px;
   border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .sign-in-main .sign-in-div {
+    margin: 100px 0px 0px 40px;
+  }
 }
 .sign-in-main .sign-in-div form {
   width: 100%;
@@ -529,6 +560,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
   font-size: 2rem;
   margin: 0px 0px 0px 78px;
 }
+@media (max-width: 800px) {
+  .sign-in-main .sign-in-div form .sign-cont {
+    margin: 0px 0px 0px 30px;
+  }
+}
 .sign-in-main .sign-in-div form .sign-cont #sign-in-first-cont {
   margin: 0px 0px 500px 0px;
 }
@@ -543,6 +579,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
   border: none;
   border-bottom: 2px solid #E94472;
 }
+@media (max-width: 800px) {
+  .sign-in-main .sign-in-div form .sign-cont .sign-in-input {
+    width: 260px;
+  }
+}
 .sign-in-main .sign-in-div form .checkbox {
   display: flex;
   justify-content: start;
@@ -550,6 +591,12 @@ footer .additional-footer .fa.fa-pinterest:hover {
   height: 20px;
   margin: 10px 0px 0px 78px;
   font-size: 1.5rem;
+}
+@media (max-width: 800px) {
+  .sign-in-main .sign-in-div form .checkbox {
+    margin-left: 30px;
+    width: 150px;
+  }
 }
 .sign-in-main .sign-in-div form .checkbox #single-check {
   transform: scale(1.5);
@@ -565,8 +612,14 @@ footer .additional-footer .fa.fa-pinterest:hover {
   font-size: 2rem;
   margin: 30px 0px 50px 200px;
   border-radius: 10px;
+  background-color: white;
   color: #E94472;
   border: 1px solid #E94472;
+}
+@media (max-width: 800px) {
+  .sign-in-main .sign-in-div form button {
+    margin-left: 85px;
+  }
 }
 .sign-in-main .sign-in-div form button:hover {
   background-image: linear-gradient(to bottom right, #E94472, #AD85F8);
@@ -581,9 +634,10 @@ footer .additional-footer .fa.fa-pinterest:hover {
   text-align: center;
 }
 .sign-in-main .sign-in-div form .social-sign-in .fa {
-  padding: 20px;
+  padding: 15px;
   font-size: 30px;
-  width: 80px;
+  width: 60px;
+  height: 60px;
   text-align: center;
   text-decoration: none;
   margin: 0px 5px;
