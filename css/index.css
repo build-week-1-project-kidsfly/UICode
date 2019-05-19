@@ -297,10 +297,21 @@ p {
   font-size: 3rem;
   margin-left: 50px;
 }
+@media (max-width: 500px) {
+  .title-nav-bar h1 {
+    font-size: 2rem;
+    margin-left: 30px;
+  }
+}
 .title-nav-bar nav {
   margin-right: 50px;
   display: flex;
   justify-items: center;
+}
+@media (max-width: 500px) {
+  .title-nav-bar nav {
+    margin-right: 20px;
+  }
 }
 .title-nav-bar nav a {
   width: 10%;
@@ -312,9 +323,20 @@ p {
   margin: 0px 30px 0px 30px;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .title-nav-bar nav a {
+    font-size: 1.3rem;
+    margin: 15px 20px 10px 20px;
+  }
+}
 /* Drop Down Button on Nav Bar */
 .dropdown {
   overflow: hidden;
+}
+@media (max-width: 500px) {
+  .dropdown {
+    margin-top: 10px;
+  }
 }
 .dropdown .dropbtn {
   font-size: 16px;
@@ -356,12 +378,22 @@ p {
   width: 60%;
   color: #AD85F8;
 }
+@media (max-width: 500px) {
+  #dropa1 {
+    margin: 0px 0px 0px 30px;
+  }
+}
 #dropa1:hover {
   color: #E94472;
 }
 #dropa2 {
   width: 60%;
   color: #AD85F8;
+}
+@media (max-width: 500px) {
+  #dropa2 {
+    margin: 0px 0px 0px 30px;
+  }
 }
 #dropa2:hover {
   color: #E94472;
@@ -535,6 +567,7 @@ footer .additional-footer .fa.fa-pinterest:hover {
   }
   .sign-in-main img {
     width: 100%;
+    height: 600px;
   }
 }
 .sign-in-main .sign-in-div {
@@ -700,6 +733,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
 @media (max-width: 500px) {
   .sign-in-main {
     height: 1500px;
+  }
+}
+@media (max-width: 500px) {
+  footer .footer-title {
+    margin-top: 50px;
   }
 }
 .top-img {
