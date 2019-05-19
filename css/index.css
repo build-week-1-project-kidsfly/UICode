@@ -528,6 +528,15 @@ footer .additional-footer .fa.fa-pinterest:hover {
     height: 800px;
   }
 }
+@media (max-width: 500px) {
+  .sign-in-main {
+    flex-direction: column;
+    height: 400px;
+  }
+  .sign-in-main img {
+    width: 100%;
+  }
+}
 .sign-in-main .sign-in-div {
   background-color: white;
   width: 40%;
@@ -538,6 +547,12 @@ footer .additional-footer .fa.fa-pinterest:hover {
 @media (max-width: 800px) {
   .sign-in-main .sign-in-div {
     margin: 100px 0px 0px 40px;
+  }
+}
+@media (max-width: 500px) {
+  .sign-in-main .sign-in-div {
+    margin: 70px 0px 0px 50px;
+    width: 80%;
   }
 }
 .sign-in-main .sign-in-div form {
@@ -563,6 +578,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
 @media (max-width: 800px) {
   .sign-in-main .sign-in-div form .sign-cont {
     margin: 0px 0px 0px 30px;
+  }
+}
+@media (max-width: 500px) {
+  .sign-in-main .sign-in-div form .sign-cont {
+    margin: 0px 0px 0px 78px;
   }
 }
 .sign-in-main .sign-in-div form .sign-cont #sign-in-first-cont {
@@ -598,6 +618,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
     width: 150px;
   }
 }
+@media (max-width: 500px) {
+  .sign-in-main .sign-in-div form .checkbox {
+    margin-left: 78px;
+  }
+}
 .sign-in-main .sign-in-div form .checkbox #single-check {
   transform: scale(1.5);
   margin-right: 10px;
@@ -619,6 +644,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
 @media (max-width: 800px) {
   .sign-in-main .sign-in-div form button {
     margin-left: 85px;
+  }
+}
+@media (max-width: 500px) {
+  .sign-in-main .sign-in-div form button {
+    margin-left: 125px;
   }
 }
 .sign-in-main .sign-in-div form button:hover {
