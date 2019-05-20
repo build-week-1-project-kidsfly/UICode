@@ -1,0 +1,77 @@
+.set-up-main {
+  width: 100%;
+  height: 900px;
+  //padding: 200px 0px 0px 35%;
+  padding: 0px 0px 0px 35%;
+  background-image: url("../img/purple_blur.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+}
+
+/* Form for Set Up */
+form {
+  background-color: white;
+  width: 50%;
+  height: 900px;
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 3.0rem;
+    color: @red;
+    margin: 20px 0px 30px 0px;
+  }
+  .sign-cont {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: start;
+    font-size: 2.0rem;
+    margin: 0px 0px 0px 78px;
+    @media @tablet {
+      margin: 0px 0px 0px 30px;
+    }
+    @media @phone {
+      margin: 0px 0px 0px 78px;
+    }
+    #sign-in-first-cont {
+      margin: 0px 0px 500px 0px;
+    }
+    .sign-in-label {
+      margin: 20px 0px 10px 0px;
+      color: @red;
+    }
+    .sign-in-input {
+      width: 290px;
+      height: 40px;
+      font-size: 1.7rem;
+      border: none;
+      border-bottom: 2px solid @red;
+      @media @tablet {
+        width: 260px;
+      }
+    }
+  }
+
+  button {
+    font-family: 'Open Sans', sans-serif;
+    width: 150px;
+    height: 50px;
+    font-size: 2.0rem;
+    margin: 30px 0px 50px 150px;
+    border-radius: 10px;
+    background-color: white;
+    color: @red;
+    border: 1px solid @red;
+    @media @tablet {
+      margin-left: 85px;
+    }
+    @media @phone {
+      margin-left: 125px;
+    }
+  }
+  button:hover {
+    background-image: linear-gradient(to bottom right, @red, @purple);
+    color: white;
+  }
+
+}

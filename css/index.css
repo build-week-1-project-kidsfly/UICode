@@ -545,6 +545,89 @@ footer .additional-footer .fa.fa-pinterest:hover {
   border: 1px solid #BD081C;
   color: #BD081C;
 }
+.set-up-main {
+  width: 100%;
+  height: 900px;
+  padding: 0px 0px 0px 35%;
+  background-image: url("../img/purple_blur.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+}
+/* Form for Set Up */
+form {
+  background-color: white;
+  width: 50%;
+  height: 900px;
+}
+form h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: #E94472;
+  margin: 20px 0px 30px 0px;
+}
+form .sign-cont {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: start;
+  font-size: 2rem;
+  margin: 0px 0px 0px 78px;
+}
+@media (max-width: 800px) {
+  form .sign-cont {
+    margin: 0px 0px 0px 30px;
+  }
+}
+@media (max-width: 500px) {
+  form .sign-cont {
+    margin: 0px 0px 0px 78px;
+  }
+}
+form .sign-cont #sign-in-first-cont {
+  margin: 0px 0px 500px 0px;
+}
+form .sign-cont .sign-in-label {
+  margin: 20px 0px 10px 0px;
+  color: #E94472;
+}
+form .sign-cont .sign-in-input {
+  width: 290px;
+  height: 40px;
+  font-size: 1.7rem;
+  border: none;
+  border-bottom: 2px solid #E94472;
+}
+@media (max-width: 800px) {
+  form .sign-cont .sign-in-input {
+    width: 260px;
+  }
+}
+form button {
+  font-family: 'Open Sans', sans-serif;
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  margin: 30px 0px 50px 150px;
+  border-radius: 10px;
+  background-color: white;
+  color: #E94472;
+  border: 1px solid #E94472;
+}
+@media (max-width: 800px) {
+  form button {
+    margin-left: 85px;
+  }
+}
+@media (max-width: 500px) {
+  form button {
+    margin-left: 125px;
+  }
+}
+form button:hover {
+  background-image: linear-gradient(to bottom right, #E94472, #AD85F8);
+  color: white;
+}
 /* Sign In Page */
 .sign-in-main {
   display: flex;
@@ -563,11 +646,10 @@ footer .additional-footer .fa.fa-pinterest:hover {
 @media (max-width: 500px) {
   .sign-in-main {
     flex-direction: column;
-    height: 400px;
+    height: 700px;
   }
   .sign-in-main img {
-    width: 100%;
-    height: 600px;
+    display: none;
   }
 }
 .sign-in-main .sign-in-div {
@@ -731,13 +813,8 @@ footer .additional-footer .fa.fa-pinterest:hover {
   color: white;
 }
 @media (max-width: 500px) {
-  .sign-in-main {
-    height: 1500px;
-  }
-}
-@media (max-width: 500px) {
-  footer .footer-title {
-    margin-top: 50px;
+  footer {
+    display: none;
   }
 }
 .top-img {
