@@ -1,0 +1,96 @@
+.register {
+  width: 100%;
+  height: 680px;
+  padding: 50px 0px 0px 35%;
+  background-color: @purple;
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  @media @tablet {
+    padding: 50px 0px 0px 15%;
+  }
+  form {
+    background-color: @red;
+    width: 50%;
+    height: 600px;
+    border-radius: 50px;
+    @media @tablet {
+      width: 80%;
+      height: 600px;
+      border-radius: 50px;
+    }
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      font-size: 3.0rem;
+      color: white;
+      margin: 20px 0px 30px 0px;
+    }
+    label {
+      color: white;
+      font-size: 2.0rem;
+      margin: 0px 0px 0px 40%;
+      @media @phone {
+        margin: 0px 0px 0px 38%;
+      }
+    }
+    .userName, .password {
+      width: 290px;
+      height: 40px;
+      font-size: 1.7rem;
+      border: none;
+      border-bottom: 2px solid @red;
+      border-radius: 50px;
+      text-align: center;
+      margin: 15px 0px 0px 20%;
+      @media @tablet {
+        width: 260px;
+        margin: 15px 0px 0px 25%;
+      }
+      @media @phone {
+        margin: 15px 0px 0px 13%;
+      }
+    }
+    .indentFormBtm.password {
+      margin-bottom: 30px;
+    }
+    .forgot {
+      text-align: center;
+      margin-bottom: 30px;
+      p {
+        color: white;
+        font-size: 2.0rem;
+      }
+      a {
+        color: white;
+        font-size: 2.0rem;
+      }
+    }
+    .submit {
+      width: 290px;
+      height: 40px;
+      font-size: 1.7rem;
+      border: none;
+      border-bottom: 2px solid @red;
+      border-radius: 50px;
+      margin: 0px 0px 30px 20%;
+      text-align: center;
+      @media @tablet {
+        width: 260px;
+        margin: 0px 0px 30px 25%;
+      }
+    }
+    .signIn-admin {
+      p {
+        color: white;
+        font-size: 2.0rem;
+        text-align: center;
+        margin-bottom: 10px;
+        a {
+          color: white;
+          font-size: 2.0rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

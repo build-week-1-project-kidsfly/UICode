@@ -1,18 +1,26 @@
 .set-up-main {
   width: 100%;
   height: 900px;
-  //padding: 200px 0px 0px 35%;
-  padding: 0px 0px 0px 35%;
-  background-image: url("../img/purple_blur.jpg");
+  padding: 50px 0px 0px 35%;
+  background-color: @purple;
   background-repeat: no-repeat;
   background-size: 100% 900px;
+  @media @tablet {
+    padding: 50px 0px 0px 15%;
+  }
 }
 
 /* Form for Set Up */
 form {
   background-color: white;
   width: 50%;
-  height: 900px;
+  height: 800px;
+  border-radius: 50px;
+  @media @tablet {
+    width: 80%;
+    height: 800px;
+    border-radius: 50px;
+  }
   h1 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -28,10 +36,10 @@ form {
     font-size: 2.0rem;
     margin: 0px 0px 0px 78px;
     @media @tablet {
-      margin: 0px 0px 0px 30px;
+      margin: 0px 0px 0px 130px;
     }
     @media @phone {
-      margin: 0px 0px 0px 78px;
+      margin: 0px 0px 0px 38px;
     }
     #sign-in-first-cont {
       margin: 0px 0px 500px 0px;
@@ -63,10 +71,10 @@ form {
     color: @red;
     border: 1px solid @red;
     @media @tablet {
-      margin-left: 85px;
+      margin-left: 185px;
     }
     @media @phone {
-      margin-left: 125px;
+      margin-left: 90px;
     }
   }
   button:hover {

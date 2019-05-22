@@ -374,28 +374,34 @@ p {
   display: block;
   text-align: left;
 }
-#dropa1 {
+#dropa1,
+#dropa3 {
   width: 60%;
   color: #AD85F8;
 }
 @media (max-width: 500px) {
-  #dropa1 {
+  #dropa1,
+  #dropa3 {
     margin: 0px 0px 0px 30px;
   }
 }
-#dropa1:hover {
+#dropa1:hover,
+#dropa3:hover {
   color: #E94472;
 }
-#dropa2 {
+#dropa2,
+#dropa4 {
   width: 60%;
   color: #AD85F8;
 }
 @media (max-width: 500px) {
-  #dropa2 {
+  #dropa2,
+  #dropa4 {
     margin: 0px 0px 0px 30px;
   }
 }
-#dropa2:hover {
+#dropa2:hover,
+#dropa4:hover {
   color: #E94472;
 }
 .dropdown-content a:hover {
@@ -545,19 +551,141 @@ footer .additional-footer .fa.fa-pinterest:hover {
   border: 1px solid #BD081C;
   color: #BD081C;
 }
+.register {
+  width: 100%;
+  height: 680px;
+  padding: 50px 0px 0px 35%;
+  background-color: #AD85F8;
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+}
+@media (max-width: 800px) {
+  .register {
+    padding: 50px 0px 0px 15%;
+  }
+}
+.register form {
+  background-color: #E94472;
+  width: 50%;
+  height: 600px;
+  border-radius: 50px;
+}
+@media (max-width: 800px) {
+  .register form {
+    width: 80%;
+    height: 600px;
+    border-radius: 50px;
+  }
+}
+.register form h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  margin: 20px 0px 30px 0px;
+}
+.register form label {
+  color: white;
+  font-size: 2rem;
+  margin: 0px 0px 0px 40%;
+}
+@media (max-width: 500px) {
+  .register form label {
+    margin: 0px 0px 0px 38%;
+  }
+}
+.register form .userName,
+.register form .password {
+  width: 290px;
+  height: 40px;
+  font-size: 1.7rem;
+  border: none;
+  border-bottom: 2px solid #E94472;
+  border-radius: 50px;
+  text-align: center;
+  margin: 15px 0px 0px 20%;
+}
+@media (max-width: 800px) {
+  .register form .userName,
+  .register form .password {
+    width: 260px;
+    margin: 15px 0px 0px 25%;
+  }
+}
+@media (max-width: 500px) {
+  .register form .userName,
+  .register form .password {
+    margin: 15px 0px 0px 13%;
+  }
+}
+.register form .indentFormBtm.password {
+  margin-bottom: 30px;
+}
+.register form .forgot {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.register form .forgot p {
+  color: white;
+  font-size: 2rem;
+}
+.register form .forgot a {
+  color: white;
+  font-size: 2rem;
+}
+.register form .submit {
+  width: 290px;
+  height: 40px;
+  font-size: 1.7rem;
+  border: none;
+  border-bottom: 2px solid #E94472;
+  border-radius: 50px;
+  margin: 0px 0px 30px 20%;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .register form .submit {
+    width: 260px;
+    margin: 0px 0px 30px 25%;
+  }
+}
+.register form .signIn-admin p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.register form .signIn-admin p a {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
 .set-up-main {
   width: 100%;
   height: 900px;
-  padding: 0px 0px 0px 35%;
-  background-image: url("../img/purple_blur.jpg");
+  padding: 50px 0px 0px 35%;
+  background-color: #AD85F8;
   background-repeat: no-repeat;
   background-size: 100% 900px;
+}
+@media (max-width: 800px) {
+  .set-up-main {
+    padding: 50px 0px 0px 15%;
+  }
 }
 /* Form for Set Up */
 form {
   background-color: white;
   width: 50%;
-  height: 900px;
+  height: 800px;
+  border-radius: 50px;
+}
+@media (max-width: 800px) {
+  form {
+    width: 80%;
+    height: 800px;
+    border-radius: 50px;
+  }
 }
 form h1 {
   font-family: 'Open Sans', sans-serif;
@@ -576,12 +704,12 @@ form .sign-cont {
 }
 @media (max-width: 800px) {
   form .sign-cont {
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 130px;
   }
 }
 @media (max-width: 500px) {
   form .sign-cont {
-    margin: 0px 0px 0px 78px;
+    margin: 0px 0px 0px 38px;
   }
 }
 form .sign-cont #sign-in-first-cont {
@@ -616,12 +744,12 @@ form button {
 }
 @media (max-width: 800px) {
   form button {
-    margin-left: 85px;
+    margin-left: 185px;
   }
 }
 @media (max-width: 500px) {
   form button {
-    margin-left: 125px;
+    margin-left: 90px;
   }
 }
 form button:hover {
@@ -653,7 +781,6 @@ form button:hover {
   }
 }
 .sign-in-main .sign-in-div {
-  background-color: white;
   width: 40%;
   height: 600px;
   margin: 100px 0px 0px 70px;

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="Kidsfly" content="Buildweek 1 Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:400,600i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Solid Navbar -->
+<nav class="navBar">
+    <ul>
+        <li><a class="navLeft" href=#>Kidsfly</a></li>
+        <li><a class="navRight"href=#>Home</a></li>
+        <li><a class="navRight"href=#>Services</a></li>
+        <li><a class="navRight"href=#>FAQ</a></li>
+        <li><a class="navRight"href=#>Contact</a></li>
+    </ul>
+</nav>
+
+<div class="register">
+    <h2>Administrator sign in:</h2>
+    <form method="post" id="register" action="">
+
+        <label for="Username">Username:</label><br>
+        <input type="text" name="Username" id="name" placeholder="8-16 characters" required
+               minlength="8" maxlength="16"><br><br>
+
+
+        <label>First Name:</label><br>
+        <input type="text" name="firstName" id="name" placeholder="Enter your first name" /><br><br>
+        <label>Last Name:</label><br>
+        <input type="text" name="lastName" id="name" placeholder="Enter your last name" /><br><br>
+        <label>Phone Number:</label><br>
+        <select id="phoneNumber">
+            <option>+91</option>
+            <option>+92</option>
+            <option>+93</option>
+            <option>+94</option>
+            <option>+95</option>
+        </select>
+        <input type="number" name="phoneNumber" id="number" placeholder="Enter your phone number" /><br><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" id="name" placeholder="Enter your email" /><br><br>
+        <label>Password:</label><br>
+        <input type="password" name="password" id="name" placeholder="Enter your password" /><br><br>
+        <label>Re-enter your Password:</label><br>
+        <input type="password" name="password" id="name" placeholder="Enter your password" /><br><br>
+        <input type="radio" name="male" id="male"><span id="male">&nbsp; Male</span>&nbsp;&nbsp;
+        <input type="radio" name="female" id="female"><span id="female">&nbsp; Female</span>&nbsp;&nbsp;
+        <input type="radio" name="other" id="other"><span id="other">&nbsp;Prefer not to say</span>&nbsp;&nbsp;<br><br>
+        <input type="submit" value="submit" id="submit">
+    </form>
+</div>
+
+
+
+</body>
+</html>
