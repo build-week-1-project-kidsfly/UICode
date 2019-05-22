@@ -629,9 +629,19 @@ footer .additional-footer .fa.fa-pinterest:hover {
   color: white;
   font-size: 2rem;
 }
+@media (max-width: 500px) {
+  .register form .forgot p {
+    text-align: center;
+  }
+}
 .register form .forgot a {
   color: white;
   font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .register form .forgot a {
+    text-align: center;
+  }
 }
 .register form .submit {
   width: 290px;
@@ -647,6 +657,11 @@ footer .additional-footer .fa.fa-pinterest:hover {
   .register form .submit {
     width: 260px;
     margin: 0px 0px 30px 25%;
+  }
+}
+@media (max-width: 500px) {
+  .register form .submit {
+    margin: 0px 0px 30px 13%;
   }
 }
 .register form .signIn-admin p {

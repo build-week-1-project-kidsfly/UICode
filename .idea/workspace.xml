@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee44ebc5-ca1f-48cb-8d7d-a6e1f19de2b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/navigation.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/userSetUp.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/userSetUp.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/userSignIn.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/userSignIn.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userSetUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/userSetUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userSignIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/userSignIn.html" afterDir="false" />
-    </list>
+    <list default="true" id="ee44ebc5-ca1f-48cb-8d7d-a6e1f19de2b4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -197,12 +185,12 @@
       <workItem from="1557877430100" duration="2864000" />
       <workItem from="1557882757422" duration="95936000" />
       <workItem from="1558332565276" duration="27772000" />
-      <workItem from="1558501332508" duration="2440000" />
+      <workItem from="1558501332508" duration="2881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129012000" />
+    <option name="totallyTimeSpent" value="129453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
