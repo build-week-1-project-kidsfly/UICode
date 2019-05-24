@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="Kidsfly" content="Buildweek 1 Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <!--<link rel="stylesheet" href="css/admin.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Prompt:400,600i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Solid Navbar -->
+<div class="title-nav-bar">
+    <h1>KidsFly</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Parents
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a id="dropa1" href="userSignIn.html">User Sign in</a>
+                <a id="dropa2" href="userSetUp.html">Set-Up</a>
+                <a id="dropa3" href="adminSetUp.html">Admin Setup</a>
+                <a id="dropa4" href="adminLogIn.html">Admin Sign in</a>
+            </div>
+        </div>
+        <a href="userNewTrip.html">New Trip</a>
+        <a href="#">Contact</a>
+    </nav>
+</div>
+
+<div class="register">
+    <form method="post" id="register" action="">
+        <h2>Administrator sign in:</h2>
+
+        <label for="Username">Username:</label><br>
+        <input type="text" name="Username" id="name" placeholder="8-16 characters" required
+               minlength="8" maxlength="16"><br><br>
+
+
+        <label>First Name:</label><br>
+        <input type="text" name="firstName" id="name" placeholder="Enter your first name" /><br><br>
+        <label>Last Name:</label><br>
+        <input type="text" name="lastName" id="name" placeholder="Enter your last name" /><br><br>
+        <label>Phone Number:</label><br>
+        <select id="phoneNumber">
+            <option>+91</option>
+            <option>+92</option>
+            <option>+93</option>
+            <option>+94</option>
+            <option>+95</option>
+        </select>
+        <input type="number" name="phoneNumber" id="number" placeholder="Enter your phone number" /><br><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" id="name" placeholder="Enter your email" /><br><br>
+        <label>Password:</label><br>
+        <input type="password" name="password" id="name" placeholder="Enter your password" /><br><br>
+        <label>Re-enter your Password:</label><br>
+        <input type="password" name="password" id="name" placeholder="Enter your password" /><br><br>
+        <input type="radio" name="male" id="male1"><span id="male">&nbsp; Male</span>&nbsp;&nbsp;
+        <input type="radio" name="female" id="female1"><span id="female">&nbsp; Female</span>&nbsp;&nbsp;
+        <input type="radio" name="other" id="other1"><span id="other">&nbsp;Prefer not to say</span>&nbsp;&nbsp;<br><br>
+        <input type="submit" value="submit" id="submit">
+    </form>
+</div>
+
+<footer>
+    <div class="mapouter">
+        <div class="footer-title">
+            <h3>KidsFly Headquarters</h3>
+        </div>
+        <div class="gmap_canvas">
+            <iframe width="950" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20jose&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a>
+        </div><style>.mapouter{position:relative;text-align:right;height:450px;width:950px;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:950px;}</style>
+    </div>
+    <div class="additional-footer">
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+    </div>
+</footer>
+
+</body>
+</html>

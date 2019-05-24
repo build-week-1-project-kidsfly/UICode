@@ -1,0 +1,106 @@
+// Footer Design
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background-color: @black;
+  @media @phone {
+    flex-direction: column;
+    height: 650px;
+  }
+  .mapouter {
+    margin-left: 30px;
+    @media @tablet {
+      max-width: 800px;
+    }
+    @media @phone {
+      max-width: 400px;
+      margin-left: 10%;
+    }
+    .gmap_canvas {
+      border: 5px solid @purple;
+      border-radius: 10px;
+      box-shadow: 10px 10px 5px grey;
+      @media @tablet {
+        width: 600px;
+        height: 400px;
+      }
+      @media @phone {
+        width: 400px;
+        height: 400px;
+      }
+    }
+  }
+  .footer-title {
+    margin: 30px 0px 20px 0px;
+    @media @tablet {
+      margin: 30px 90px 20px 0px;
+    }
+    h3 {
+      color: white;
+      margin-right: 70%;
+      @media @tablet {
+        margin-right: 60%;
+        text-align: start;
+      }
+      @media @phone {
+        text-align: start;
+        //margin-left: 30%;
+      }
+    }
+  }
+  // Container for social buttons
+  .additional-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0px 0px 155px;
+    @media @tablet {
+      margin: 30px 40px 0px 0px;
+    }
+    @media @phone {
+      flex-direction: row;
+      margin: 100px 0px 0px 75px;
+      width: 350px;
+    }
+    .fa {
+      padding: 25px;
+      margin: 5px;
+      font-size: 30px;
+      width: 80px;
+      height: 80px;
+      border: 1px solid white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      color: white;
+      @media @tablet {
+        padding: 15px;
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+    /* Colors for Hover over each social media button */
+    .fa.fa-google:hover {
+      border: 1px solid @google-green;
+      color:@google-green;
+    }
+    .fa.fa-youtube:hover {
+      border: 1px solid @youtube-red;
+      color: @youtube-red;
+    }
+    .fa.fa-facebook:hover {
+      border: 1px solid @facebook-blue;
+      color: @facebook-blue;
+    }
+    .fa.fa-instagram:hover {
+      border: 1px solid @instagram-purple;
+      color: @instagram-purple;
+    }
+    .fa.fa-pinterest:hover {
+      border: 1px solid @pinterest-red;
+      color: @pinterest-red;
+    }
+  }
+}

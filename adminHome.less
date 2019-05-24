@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: @purple;
+  color: @red;
+  font-family: 'Prompt', sans-serif;
+  .tabs {
+    background-color: @purple;
+    padding: 20px;
+    width: 100%;
+    margin-top: 100px;
+    .topics {
+      .title{
+        color: @red;
+        margin: 0 20px;
+      }
+      .active-tab {
+        color: @red;
+      }
+    }
+  }
+  .tab:hover {
+    border-bottom: 2px solid white;
+  }
+  .cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: @purple;
+    .headline {
+      font-size: 40px;
+      text-align: center;
+    }
+    .author{
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+      border: 1px solid @red;
+      text-align: center;
+    }
+  }
+}
+
+.title, .tab {
+  font-family: 'Open Sans', sans-serif;
+  //font-size: 3.0rem;
+  font-size: 2.0rem;
+}
+.tabs, .topics {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.tabs .topics .title {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.tabs .topics .tab {
+  color: @red;
+  margin: 0 20px;
+  letter-spacing: 1.25px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.tabs .topics .active-tab {
+  background-color: @purple;
+  border-bottom: 2px solid white;
+}
+
+.cards-container .card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #fff;
+  width: 600px;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+
+
+.author .info-container p{
+  font-size: 20px;
+}
+
+.carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 16px;
+}
+a.fa.fa-google {
+  outline-color: red;
+  flood-color: #0F9D58;
+}
+
+/* Meida Queries */
+@media only screen and (max-width: 800px) and (min-width: 1px) {
+  *{
+    /* box-shadow: inset 0 0 16px -4px green; */
+  }
+  .cards-container .card {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 1px) {
+  *{
+    /* box-shadow: inset 0 0 16px -4px red; */
+  }
+}

@@ -1,0 +1,170 @@
+/* Sign In Page */
+
+.sign-in-main {
+  display: flex;
+  justify-content: flex-start;
+  background-color: @purple;
+  height: 900px; //900px
+  @media @tablet {
+    img {
+      height: 800px;
+    }
+    height: 800px;
+  }
+  @media @phone {
+    flex-direction: column;
+    height: 700px; //400px
+    img {
+      display: none;
+    }
+  }
+  .sign-in-div {
+    width: 40%;
+    height: 600px;
+    margin: 100px 0px 0px 70px;
+    border-radius: 10px;
+    @media @tablet {
+      margin: 100px 0px 0px 40px;
+    }
+    @media @phone {
+      margin: 70px 0px 0px 50px;
+      width: 80%;
+    }
+    form {
+      width: 100%;
+      height: 600px;
+      border-color: white;
+      h1 {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 3.0rem;
+        color: @red;
+        margin: 20px 0px 30px 0px;
+      }
+      .sign-cont {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: start;
+        font-size: 2.0rem;
+        margin: 0px 0px 0px 78px;
+        @media @tablet {
+          margin: 0px 0px 0px 30px;
+        }
+        @media @phone {
+          margin: 0px 0px 0px 78px;
+        }
+        #sign-in-first-cont {
+          margin: 0px 0px 500px 0px;
+        }
+        .sign-in-label {
+          margin: 20px 0px 10px 0px;
+          color: @red;
+        }
+        .sign-in-input {
+          width: 390px;
+          height: 40px;
+          font-size: 1.7rem;
+          border: none;
+          border-bottom: 2px solid @red;
+          @media @tablet {
+            width: 260px;
+          }
+        }
+      }
+      .checkbox {
+        display: flex;
+        justify-content: start;
+        width: 390px;
+        height: 20px;
+        margin: 10px 0px 0px 78px;
+        font-size: 1.5rem;
+        @media @tablet {
+          margin-left: 30px;
+          width: 150px;
+        }
+        @media @phone {
+          margin-left: 78px;
+        }
+        #single-check {
+          transform: scale(1.5);
+          margin-right: 10px;
+        }
+        #remember-me {
+          color: @red;
+        }
+      }
+      button {
+        font-family: 'Open Sans', sans-serif;
+        width: 150px;
+        height: 50px;
+        font-size: 2.0rem;
+        margin: 30px 0px 50px 200px;
+        border-radius: 10px;
+        background-color: white;
+        color: @red;
+        border: 1px solid @red;
+        @media @tablet {
+          margin-left: 85px;
+        }
+        @media @phone {
+          margin-left: 125px;
+        }
+      }
+      button:hover {
+        background-image: linear-gradient(to bottom right, @red, @purple);
+        color: white;
+      }
+      p {
+        text-align: center;
+        margin-bottom: 20px;
+        color: @red;
+      }
+      .social-sign-in {
+        text-align: center;
+        .fa {
+          padding: 15px;
+          font-size: 30px;
+          width: 60px;
+          height: 60px;
+          text-align: center;
+          text-decoration: none;
+          margin: 0px 5px;
+          border-radius: 10px;
+        }
+        .fa-google {
+          border: 1px solid @google-red;
+          color: @google-red;
+        }
+        .fa-google:hover {
+          background-color: @google-red;
+          color: white;
+        }
+
+        .fa-facebook {
+          border: 1px solid @facebook-blue;
+          color: @facebook-blue;
+        }
+        .fa-facebook:hover {
+          background-color: @facebook-blue;
+          color: white;
+        }
+
+        .fa-twitter {
+          border: 1px solid @twitter-blue;
+          color: @twitter-blue;
+        }
+        .fa-twitter:hover {
+          background-color: @twitter-blue;
+          color: white;
+        }
+      }
+    }
+  }
+
+}
+@media @phone {
+  footer {
+    display: none;
+  }
+}

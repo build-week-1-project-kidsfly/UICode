@@ -1,0 +1,202 @@
+.top-img {
+  background-image: url("../img/kid_in_terminal.jpg");
+  background-size: 100% 800px;
+  width: 100%;
+  height: 800px;
+  @media @phone {
+    height: 500px;
+    background-size: 100% 500px;
+  }
+  .kids-airport {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+
+    padding-top: 335px; // Originally => 400px
+    @media @phone {
+    padding-top: 220px;
+    }
+    p {
+      font-size: 6.3rem; // Originally => 7.0px
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      text-shadow: 2px 2px 4px @purple;
+      @media @tablet {
+        font-size: 3.7rem;
+      }
+      @media @phone {
+        font-size: 2.3rem;
+        text-align: center;
+      }
+    }
+  }
+}
+.purple-bar {
+  height: 110px;
+  background-color: @purple;
+}
+
+.red-box {
+  background-color: @purple;
+  height: 660px;
+  @media @phone {
+    height: 1500px;
+  }
+  .three-boxs {
+    display: flex;
+    @media @phone {
+    flex-direction: column;
+    }
+    .red-box-each {
+      width: 457px;
+      height: 400px; //330px
+      @media @tablet {
+        margin-left: 21px;
+      }
+      img {
+        margin: 50px 0px 50px 150px;
+        @media @tablet {
+          margin: 50px 0px 50px 60px;
+        }
+        @media @phone {
+          margin-left: 150px;
+        }
+      }
+      h3 {
+        color: white;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      p {
+        width: 280px;
+        height: 80px;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+        @media @tablet {
+          max-width: 226px;
+        }
+      }
+    }
+  }
+  .two-boxs {
+    padding-top: 88px;
+    padding-bottom: 88px;
+    display: flex;
+    justify-content: center;
+    @media @phone {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    button {
+      width: 230px;
+      height: 65px;
+      font-family: 'Open Sans', sans-serif;
+      margin: 10px;
+      border-radius: 20px;
+      font-size: 2.0rem;
+      color: @red;
+      background-color: white;
+    }
+    button:hover {
+      background-color: @red;
+      color: white;
+    }
+  }
+}
+
+// Vertical white border lines
+#first-left-border {
+  border-left: 1px solid white;
+  @media @phone {
+    // Added white borders to top
+    border-top: 1px solid white;
+    border-left: none;
+  }
+}
+#second-left-border {
+  border-left: 1px solid white;
+  @media @phone {
+    // Added white borders to top
+    border-top: 1px solid white;
+    border-left: none;
+  }
+}
+
+.top-main-content {
+  .main-content-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    align-items: center;
+    h2 {
+      margin: 50px;
+      color: @red;
+    }
+    h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2.0rem;
+      margin-bottom: 80px;
+      color: @red;
+      @media @phone {
+        width: 90%;
+        text-align: center;
+      }
+    }
+  }
+  .six-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    section {
+      width: 400px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media @tablet {
+        width: 800px;
+      }
+      @media @phone {
+        width: 500px;
+      }
+      img {
+        border: 5px solid @purple;
+        margin-bottom: 60px;
+      }
+      h5 {
+        font-size: 2.0rem;
+        margin-bottom: 40px;
+        color: @red;
+      }
+      p {
+        margin-bottom: 50px;
+        text-align: center;
+        height: 190px;
+        color: @red;
+        @media @tablet {
+          width: 700px;
+        }
+        @media @phone {
+          width: 400px;
+        }
+      }
+      button {
+        width: 170px;
+        height: 50px;
+        font-size: 1.8rem;
+        border-radius: 20px;
+        color: white;
+        background-color: @purple;
+        font-family: 'Open Sans', sans-serif;
+      }
+      button:hover {
+        color: white;
+        background-color: @red;
+      }
+    }
+  }
+}

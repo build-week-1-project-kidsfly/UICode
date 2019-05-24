@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>KidsFly</title>
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/index.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="title-nav-bar">
+    <h1>KidsFly</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Parents
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a id="dropa1" href="userSignIn.html">User Sign in</a>
+                <a id="dropa2" href="userSetUp.html">Set-Up</a>
+                <a id="dropa3" href="adminSetUp.html">Admin Setup</a>
+                <a id="dropa4" href="adminLogIn.html">Admin Sign in</a>
+            </div>
+        </div>
+        <a href="userNewTrip.html">New Trip</a>
+        <a href="#">Contact</a>
+    </nav>
+</div>
+
+<div class="set-up-main">
+    <form>
+        <h1>Set Up</h1>
+        <br>
+        <div class="sign-cont" id="sign-in-first-cont">
+            <label class="sign-in-label"  for="Username">Create a username</label>
+            <input  class="sign-in-input" type="text" name="Username" placeholder="Username">
+        </div>
+        <br>
+
+        <div class="sign-cont">
+            <label class="sign-in-label" for="Password">Create a password</label>
+            <input class="sign-in-input" type="password" name="Password" placeholder="8-16 characters" required minlength="8" maxlength="16" size="16">
+        </div>
+        <div class="sign-cont">
+            <label class="sign-in-label" for="Password">Retype password</label>
+            <input class="sign-in-input" type="password" name="Password" placeholder="8-16 characters" required minlength="8" maxlength="16" size="16">
+        </div>
+        <br>
+        <br>
+        <div class="sign-cont">
+            <label class="sign-in-label" for="Email">Email</label>
+            <input class="sign-in-input" type="email" name="email" placeholder="JohnSmith123@email.com">
+        </div>
+        <br>
+        <br>
+        <div class="sign-cont">
+            <label class="sign-in-label" for="phoneNumber">Phone</label>
+            <input class="sign-in-input" type="tel" name="number" placeholder="123-123-1234">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="sign-in-button" type="submit" value="Login">Submit</button>
+
+
+    </form>
+</div>
+
+
+
+<!--Finish the footer in the morning!!-->
+<footer>
+    <div class="mapouter">
+        <div class="footer-title">
+            <h3>KidsFly Headquarters</h3>
+        </div>
+        <div class="gmap_canvas">
+            <iframe width="950" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20jose&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a>
+        </div><style>.mapouter{position:relative;text-align:right;height:450px;width:950px;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:950px;}</style>
+    </div>
+    <div class="additional-footer">
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+    </div>
+</footer>
+
+</body>
+</html>

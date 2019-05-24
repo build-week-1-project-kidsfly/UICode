@@ -1,0 +1,140 @@
+/* Title & Nav Bar */
+.title-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  @media @tablet {
+    max-width: 100%;
+  }
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 3.0rem;
+    margin-left: 50px;
+    @media @phone {
+      font-size: 2.0rem;
+      margin-left: 30px;
+    }
+  }
+  height: 60px;
+  background-color: @title-nav-bar;
+  nav {
+    margin-right: 50px;
+    display: flex;
+    justify-items: center;
+    @media @phone {
+      margin-right: 20px;
+    }
+    a {
+      //width: 10%;
+      width: 100px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.8rem;
+      font-family: 'Open Sans', sans-serif;
+      padding: 15px 0px 15px 0px;
+      margin: 0px 30px 0px 30px; //20px
+      text-align: center;
+      @media @phone {
+        font-size: 1.3rem;
+        margin: 15px 20px 10px 20px;
+      }
+    }
+  }
+}
+
+/* Drop Down Button on Nav Bar */
+.dropdown {
+  //float: left;
+  overflow: hidden;
+  @media @phone {
+    margin-top: 10px;
+  }
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  border-radius: 5px;
+  color: @red;
+}
+.dropbtn:hover {
+  color: @red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white; //#f9f9f9
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#dropa1, #dropa3 {
+  width: 60%;
+  color: @purple;
+  @media @phone {
+    margin: 0px 0px 0px 30px;
+  }
+}
+#dropa1:hover, #dropa3:hover {
+  color: @red;
+}
+#dropa2, #dropa4 {
+  width: 60%;
+  color: @purple;
+  @media @phone {
+    margin: 0px 0px 0px 30px;
+  }
+}
+#dropa2:hover, #dropa4:hover {
+  color: @red;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Collapseable Button */
+.collapse-mechanism {
+  display: none;
+  @media @phone {
+    display: flex;
+  }
+  .navbar-toggler.toggler-example {
+    cursor: pointer;
+  }
+  .fa-1x {
+    font-size: 1.5rem;
+  }
+  .dark-blue-text {
+    color: white;
+  }
+}
