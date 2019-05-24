@@ -339,7 +339,7 @@ p {
   }
 }
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 1.6rem;
   border: none;
   outline: none;
   color: white;
@@ -1357,4 +1357,3 @@ form button:hover {
   color: white;
   background-color: #E94472;
 }
-/*# sourceMappingURL=index.css.map */
