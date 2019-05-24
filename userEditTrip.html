@@ -16,53 +16,63 @@
 
 <!-- Solid Navbar -->
 <div class="title-nav-bar">
-    <h1>KidsFly</h1>
+    <a href="index.html" class="mainHomeBtn"><h1>KidsFly</h1></a>
     <nav>
-        <a href="index.html">Home</a>
+        <!-- Admin DropDown -->
+        <div class="dropdown">
+            <button class="dropbtn">Admin
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a id="dropa5" href="adminHome.html">Home</a>
+                <a id="dropa6" href="adminSetUp.html">Set-Up</a>
+                <a id="dropa7" href="adminLogIn.html">Log-In</a>
+            </div>
+        </div>
+
+        <!-- Parent Drop Down -->
         <div class="dropdown">
             <button class="dropbtn">Parents
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a id="dropa1" href="userSignIn.html">User Sign in</a>
+                <a id="dropa1" href="userSignIn.html">Sign in</a>
                 <a id="dropa2" href="userSetUp.html">Set-Up</a>
-                <a id="dropa3" href="adminSetUp.html">Admin Setup</a>
-                <a id="dropa4" href="adminLogIn.html">Admin Sign in</a>
             </div>
         </div>
         <a href="userNewTrip.html">New Trip</a>
-        <a href="#">Contact</a>
+        <a href="userEditTrip.html">Edit Trip</a>
     </nav>
-</div>
-<div class="register">
+
+<div class="register" id="userEditTrip">
     <form method="post" id="register" action="">
         <h1>View, Edit or Delete
             any scheduled trip below</h1>
-        <label for="view">View</label><br />
-        <input list="view-list" class="view indentFormBtm" name="view"><br />
+        <label for="view"><p>View</p></label><br />
+        <input id="view" list="view-list" class="view indentFormBtm" name="view"><br />
         <datalist id="view-list">
             <option value="Trip 1">
             <option value="trip 2">
             <option value="Trip 3">
         </datalist>
-        <label for="kid">Edit</label><br />
-        <input list="edit-list" class="edit indentFormBtm" name="edit"><br />
+        <label for="kid"><p>Edit</p></label><br />
+        <input id="edit" list="edit-list" class="edit indentFormBtm" name="edit"><br />
         <datalist id="edit-list">
             <option value="Trip 1">
             <option value="trip 2">
             <option value="Trip 3">
         </datalist>
-        <label for="kid">Delete</label><br />
-        <input list="delete-list" class="delete indentFormBtm" name="delete"><br />
+        <label for="kid"><p>Delete</p></label><br />
+        <input id="delete" list="delete-list" class="delete indentFormBtm" name="delete"><br />
         <datalist id="delete-list">
             <option value="Trip 1">
             <option value="trip 2">
             <option value="Trip 3">
         </datalist>
-        <input class="submit" name="submit" value="Go!" type="submit">
+        <input id="submit" class="submit" name="submit" value="Go!" type="submit">
         <h1 class="indentFormTop">Within 5 minutes of arriving?<br />
             Click the button below to let us know!</h1>
-        <input class="submit" name="arrive" value="Ready!" type="submit">
+        <input id="ready" class="submit" name="arrive" value="Ready!" type="submit">
     </form>
 </div>
 

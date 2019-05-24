@@ -375,18 +375,27 @@ p {
   text-align: left;
 }
 #dropa1,
-#dropa3 {
+#dropa3,
+#dropa5,
+#dropa6,
+#dropa7 {
   width: 60%;
   color: #AD85F8;
 }
 @media (max-width: 500px) {
   #dropa1,
-  #dropa3 {
+  #dropa3,
+  #dropa5,
+  #dropa6,
+  #dropa7 {
     margin: 0px 0px 0px 30px;
   }
 }
 #dropa1:hover,
-#dropa3:hover {
+#dropa3:hover,
+#dropa5:hover,
+#dropa6:hover,
+#dropa7:hover {
   color: #E94472;
 }
 #dropa2,
@@ -669,6 +678,25 @@ a.fa.fa-google {
 @media only screen and (max-width: 500px) and (min-width: 1px) {
   * {
     /* box-shadow: inset 0 0 16px -4px red; */
+  }
+}
+.register#userEditTrip form#register {
+  background-color: #E94472;
+  width: 500px;
+  height: 700px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.register#userEditTrip form#register h1 {
+  padding-top: 20px;
+}
+@media (max-width: 500px) {
+  #view,
+  #edit,
+  #delete,
+  #submit,
+  #ready {
+    margin-left: 25%;
   }
 }
 body {

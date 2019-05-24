@@ -14,24 +14,34 @@
 </head>
 <body>
 <div class="title-nav-bar">
-    <h1>KidsFly</h1>
+    <a href="index.html" class="mainHomeBtn"><h1>KidsFly</h1></a>
     <nav>
-        <a href="index.html">Home</a>
+        <!-- Admin DropDown -->
+        <div class="dropdown">
+            <button class="dropbtn">Admin
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a id="dropa5" href="adminHome.html">Home</a>
+                <a id="dropa6" href="adminSetUp.html">Set-Up</a>
+                <a id="dropa7" href="adminLogIn.html">Log-In</a>
+            </div>
+        </div>
+
+        <!-- Parent Drop Down -->
         <div class="dropdown">
             <button class="dropbtn">Parents
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a id="dropa1" href="userSignIn.html">User Sign in</a>
+                <a id="dropa1" href="userSignIn.html">Sign in</a>
                 <a id="dropa2" href="userSetUp.html">Set-Up</a>
-                <a id="dropa3" href="adminSetUp.html">Admin Setup</a>
-                <a id="dropa4" href="adminLogIn.html">Admin Sign in</a>
             </div>
         </div>
         <a href="userNewTrip.html">New Trip</a>
-        <a href="#">Contact</a>
+        <a href="userEditTrip.html">Edit Trip</a>
     </nav>
-</div>
+
 
 <div class="sign-in-main">
     <img src="img/terminal_seats_black_white.jpg" alt="black-white-terminal-seats" width="50%" height="900">
