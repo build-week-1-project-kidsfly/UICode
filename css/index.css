@@ -671,7 +671,7 @@ a.fa.fa-google {
     /* box-shadow: inset 0 0 16px -4px red; */
   }
 }
-.register {
+.register-adminLogin {
   width: 100%;
   height: 680px;
   padding: 50px 0px 0px 35%;
@@ -680,42 +680,42 @@ a.fa.fa-google {
   background-size: 100% 900px;
 }
 @media (max-width: 800px) {
-  .register {
+  .register-adminLogin {
     padding: 50px 0px 0px 15%;
   }
 }
-.register form {
+.register-adminLogin form {
   background-color: #E94472;
   width: 50%;
   height: 600px;
   border-radius: 50px;
 }
 @media (max-width: 800px) {
-  .register form {
+  .register-adminLogin form {
     width: 80%;
     height: 600px;
     border-radius: 50px;
   }
 }
-.register form h1 {
+.register-adminLogin form h1 {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 3rem;
   color: white;
   margin: 20px 0px 30px 0px;
 }
-.register form label {
+.register-adminLogin form label {
   color: white;
   font-size: 2rem;
   margin: 0px 0px 0px 40%;
 }
 @media (max-width: 500px) {
-  .register form label {
+  .register-adminLogin form label {
     margin: 0px 0px 0px 38%;
   }
 }
-.register form .userName,
-.register form .password {
+.register-adminLogin form .userName,
+.register-adminLogin form .password {
   width: 290px;
   height: 40px;
   font-size: 1.7rem;
@@ -726,44 +726,45 @@ a.fa.fa-google {
   margin: 15px 0px 0px 20%;
 }
 @media (max-width: 800px) {
-  .register form .userName,
-  .register form .password {
+  .register-adminLogin form .userName,
+  .register-adminLogin form .password {
     width: 260px;
     margin: 15px 0px 0px 25%;
   }
 }
 @media (max-width: 500px) {
-  .register form .userName,
-  .register form .password {
+  .register-adminLogin form .userName,
+  .register-adminLogin form .password {
     margin: 15px 0px 0px 13%;
   }
 }
-.register form .indentFormBtm.password {
+.register-adminLogin form .indentFormBtm.password {
   margin-bottom: 30px;
 }
-.register form .forgot {
+.register-adminLogin form .forgot {
   text-align: center;
   margin-bottom: 30px;
 }
-.register form .forgot p {
+.register-adminLogin form .forgot p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .register-adminLogin form .forgot p {
+    text-align: center;
+  }
+}
+.register-adminLogin form .forgot a {
   color: white;
   font-size: 2rem;
 }
 @media (max-width: 500px) {
-  .register form .forgot p {
+  .register-adminLogin form .forgot a {
     text-align: center;
   }
 }
-.register form .forgot a {
-  color: white;
-  font-size: 2rem;
-}
-@media (max-width: 500px) {
-  .register form .forgot a {
-    text-align: center;
-  }
-}
-.register form .submit {
+.register-adminLogin form .submit {
   width: 290px;
   height: 40px;
   font-size: 1.7rem;
@@ -774,26 +775,34 @@ a.fa.fa-google {
   text-align: center;
 }
 @media (max-width: 800px) {
-  .register form .submit {
+  .register-adminLogin form .submit {
     width: 260px;
     margin: 0px 0px 30px 25%;
   }
 }
 @media (max-width: 500px) {
-  .register form .submit {
+  .register-adminLogin form .submit {
     margin: 0px 0px 30px 13%;
   }
 }
-.register form .signIn-admin p {
+.register-adminLogin form .signIn-admin p {
   color: white;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 10px;
 }
-.register form .signIn-admin p a {
+.register-adminLogin form .signIn-admin p a {
   color: white;
   font-size: 2rem;
   text-align: center;
+}
+.register-adminLogin p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.register-adminLogin form#register-login {
+  height: 100px;
 }
 .register {
   height: 1300px;
