@@ -23,7 +23,7 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a id="dropa1" href="userSignIn.html">User Sign in</a>
+                <a id="dropa1" href="userSignIn.html">Sign in</a>
                 <a id="dropa2" href="userSetUp.html">Set-Up</a>
                 <a id="dropa3" href="adminSetUp.html">Admin Setup</a>
                 <a id="dropa4" href="adminLogIn.html">Admin Sign in</a>
@@ -38,16 +38,16 @@
     <form method="post" id="register" action="">
         <h2>Administrator sign in:</h2>
 
-        <label for="Username">Username:</label><br>
-        <input type="text" name="Username" id="name" placeholder="8-16 characters" required
+        <label for="Username"><p>Username:</p></label><br>
+        <input type="text" name="Username" id="userName" placeholder="8-16 characters" required
                minlength="8" maxlength="16"><br><br>
 
 
-        <label>First Name:</label><br>
-        <input type="text" name="firstName" id="name" placeholder="Enter your first name" /><br><br>
-        <label>Last Name:</label><br>
-        <input type="text" name="lastName" id="name" placeholder="Enter your last name" /><br><br>
-        <label>Phone Number:</label><br>
+        <label><p>First Name:</p></label><br>
+        <input type="text" name="firstName" id="firstNamw" placeholder="Enter your first name" /><br><br>
+        <label><p>Last Name:</p></label><br>
+        <input type="text" name="lastName" id="lastName" placeholder="Enter your last name" /><br><br>
+        <label id="phonenumbers"><p>Phone Number:</p></label><br>
         <select id="phoneNumber">
             <option>+91</option>
             <option>+92</option>
@@ -55,16 +55,14 @@
             <option>+94</option>
             <option>+95</option>
         </select>
-        <input type="number" name="phoneNumber" id="number" placeholder="Enter your phone number" /><br><br>
-        <label>Email:</label><br>
-        <input type="email" name="email" id="name" placeholder="Enter your email" /><br><br>
-        <label>Password:</label><br>
-        <input type="password" name="password" id="name" placeholder="Enter your password" /><br><br>
-        <label>Re-enter your Password:</label><br>
-        <input type="password" name="password" id="name" placeholder="Enter your password" /><br><br>
-        <input type="radio" name="male" id="male1"><span id="male">&nbsp; Male</span>&nbsp;&nbsp;
-        <input type="radio" name="female" id="female1"><span id="female">&nbsp; Female</span>&nbsp;&nbsp;
-        <input type="radio" name="other" id="other1"><span id="other">&nbsp;Prefer not to say</span>&nbsp;&nbsp;<br><br>
+        <input type="number" name="phoneNumber" id="phoneNumber1" placeholder="Enter your phone number" /><br><br>
+        <label><p>Email:</p></label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your email" /><br><br>
+        <label><p>Password:</p></label><br>
+        <input type="password" name="password" id="passWord" placeholder="Enter your password" />
+        <br><br>
+        <label><p>Re-enter <br>your Password:</p></label><br>
+        <input type="password" name="password" id="passWordAgain" placeholder="Re-enter your password" /><br><br>
         <input type="submit" value="submit" id="submit">
     </form>
 </div>

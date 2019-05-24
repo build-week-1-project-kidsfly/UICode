@@ -802,6 +802,11 @@ a.fa.fa-google {
   margin-top: 20px;
   height: 1000px;
 }
+.register form p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
 .register form h2 {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -833,17 +838,13 @@ a.fa.fa-google {
     margin: 15px 0px 0px 13%;
   }
 }
-.register form #name,
-.register form #male,
-.register form #female,
-.register form #other {
-  color: white;
-  font-size: 2rem;
-}
 .register form #male1,
 .register form #female1,
 .register form #other1 {
   width: 20px;
+}
+.register form#register {
+  height: 1200px;
 }
 .set-up-main {
   width: 100%;
