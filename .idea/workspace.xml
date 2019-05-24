@@ -57,8 +57,7 @@
             </path>
             <path>
               <item name="UICode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UICode" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -102,7 +101,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1908000" />
+    <option name="totallyTimeSpent" value="2885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
