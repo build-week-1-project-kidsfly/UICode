@@ -33,19 +33,19 @@
         <a href="#">Contact</a>
     </nav>
 </div>
-<div class="register">
-    <form method="post" id="register" action="">
+<div class="register" id="newTrip">
+    <form method="post" id="registerNewTrip" action="">
         <h1>Schedule Your<br />
             New Trip Below!</h1>
-        <label for="airportName">Airport Name</label><br />
+        <label for="airportName"><p>Airport Name</p></label><br />
         <input type="text" name="airportName" class="airportName indentFormBtm" placeholder="" required
                minlength="3" maxlength="30"><br />
-        <label for="airline">Airline</label><br />
+        <label for="airline"><p>Airline</p></label><br />
         <input type="text" name="airline" class="indentFormBtm airline" placeholder="" required
                minlength="3" maxlength="20"><br />
-        <label for="departure">Departure Time</label><br />
-        <input class="indentFormBtm" type="time" name="departure" value="" required><br />
-        <label for="kid">How many Kids?</label><br />
+        <label for="departure"><p>Departure Time</p></label><br />
+        <input class="indentFormBtm departure" type="time" name="departure" value="" required><br />
+        <label for="kid"><p>How many Kids?</p></label><br />
         <input list="kid-list" class="kid indentFormBtm" name="kid" required><br />
         <datalist id="kid-list">
             <option value="1-3">
