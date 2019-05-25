@@ -570,7 +570,6 @@ body {
   padding: 0;
 }
 body {
-  display: flex;
   align-items: center;
   flex-direction: column;
   background-color: #AD85F8;
@@ -685,7 +684,6 @@ a.fa.fa-google {
   width: 500px;
   height: 700px;
   margin-top: 80px;
-  margin-bottom: 20px;
 }
 .register#userEditTrip form#register h1 {
   padding-top: 20px;
@@ -731,190 +729,6 @@ body {
   .indentFormTop.submit {
     margin-top: 50px;
   }
-}
-.register-adminLogin {
-  width: 100%;
-  height: 680px;
-  padding: 50px 0px 0px 35%;
-  background-color: #AD85F8;
-  background-repeat: no-repeat;
-  background-size: 100% 900px;
-}
-@media (max-width: 800px) {
-  .register-adminLogin {
-    padding: 50px 0px 0px 15%;
-  }
-}
-.register-adminLogin form {
-  background-color: #E94472;
-  width: 50%;
-  height: 600px;
-  border-radius: 50px;
-}
-@media (max-width: 800px) {
-  .register-adminLogin form {
-    width: 80%;
-    height: 600px;
-    border-radius: 50px;
-  }
-}
-.register-adminLogin form h1 {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 3rem;
-  color: white;
-  margin: 20px 0px 30px 0px;
-}
-.register-adminLogin form label {
-  color: white;
-  font-size: 2rem;
-  margin: 0px 0px 0px 40%;
-}
-@media (max-width: 500px) {
-  .register-adminLogin form label {
-    margin: 0px 0px 0px 38%;
-  }
-}
-.register-adminLogin form .userName,
-.register-adminLogin form .password {
-  width: 290px;
-  height: 40px;
-  font-size: 1.7rem;
-  border: none;
-  border-bottom: 2px solid #E94472;
-  border-radius: 50px;
-  text-align: center;
-  margin: 15px 0px 0px 20%;
-}
-@media (max-width: 800px) {
-  .register-adminLogin form .userName,
-  .register-adminLogin form .password {
-    width: 260px;
-    margin: 15px 0px 0px 25%;
-  }
-}
-@media (max-width: 500px) {
-  .register-adminLogin form .userName,
-  .register-adminLogin form .password {
-    margin: 15px 0px 0px 13%;
-  }
-}
-.register-adminLogin form .indentFormBtm.password {
-  margin-bottom: 30px;
-}
-.register-adminLogin form .forgot {
-  text-align: center;
-  margin-bottom: 30px;
-}
-.register-adminLogin form .forgot p {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-}
-@media (max-width: 500px) {
-  .register-adminLogin form .forgot p {
-    text-align: center;
-  }
-}
-.register-adminLogin form .forgot a {
-  color: white;
-  font-size: 2rem;
-}
-@media (max-width: 500px) {
-  .register-adminLogin form .forgot a {
-    text-align: center;
-  }
-}
-.register-adminLogin form .submit {
-  width: 290px;
-  height: 40px;
-  font-size: 1.7rem;
-  border: none;
-  border-bottom: 2px solid #E94472;
-  border-radius: 50px;
-  margin: 0px 0px 30px 20%;
-  text-align: center;
-}
-@media (max-width: 800px) {
-  .register-adminLogin form .submit {
-    width: 260px;
-    margin: 0px 0px 30px 25%;
-  }
-}
-@media (max-width: 500px) {
-  .register-adminLogin form .submit {
-    margin: 0px 0px 30px 13%;
-  }
-}
-.register-adminLogin form .signIn-admin p {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.register-adminLogin form .signIn-admin p a {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-}
-.register-adminLogin p {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-}
-.register-adminLogin form#register-login {
-  height: 100px;
-}
-.register {
-  height: 1300px;
-}
-.register form {
-  margin-top: 20px;
-  height: 1000px;
-}
-.register form p {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-}
-.register form h2 {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 3rem;
-  color: white;
-  margin: 20px 0px 30px 0px;
-}
-.register form input,
-.register form #phoneNumber {
-  width: 290px;
-  height: 40px;
-  font-size: 1.7rem;
-  border: none;
-  border-bottom: 2px solid #E94472;
-  border-radius: 50px;
-  text-align: center;
-  margin: 15px 0px 0px 20%;
-}
-@media (max-width: 800px) {
-  .register form input,
-  .register form #phoneNumber {
-    width: 260px;
-    margin: 15px 0px 0px 25%;
-  }
-}
-@media (max-width: 500px) {
-  .register form input,
-  .register form #phoneNumber {
-    margin: 15px 0px 0px 13%;
-  }
-}
-.register form #male1,
-.register form #female1,
-.register form #other1 {
-  width: 20px;
-}
-.register form#register {
-  height: 1200px;
 }
 .set-up-main {
   width: 100%;
