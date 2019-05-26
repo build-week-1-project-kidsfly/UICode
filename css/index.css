@@ -676,14 +676,40 @@ a.fa.fa-google {
     /* box-shadow: inset 0 0 16px -4px red; */
   }
 }
-.register#userEditTrip form#register {
+.register-editTrip form#register {
   background-color: #E94472;
   width: 500px;
   height: 700px;
-  margin-top: 80px;
+  margin: 100px 0px 0px 35%;
 }
-.register#userEditTrip form#register h1 {
+@media (max-width: 800px) {
+  .register-editTrip form#register {
+    margin: 100px 0px 0px 20%;
+  }
+}
+@media (max-width: 500px) {
+  .register-editTrip form#register {
+    margin: 100px 0px 0px 0%;
+  }
+}
+.register-editTrip form#register h1 {
   padding-top: 20px;
+  color: white;
+}
+.register-editTrip form#register label p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.register-editTrip form#register input {
+  width: 290px;
+  height: 40px;
+  font-size: 1.7rem;
+  border: none;
+  border-bottom: 2px solid #E94472;
+  border-radius: 50px;
+  text-align: center;
+  margin: 15px 0px 0px 20%;
 }
 @media (max-width: 500px) {
   #view,
