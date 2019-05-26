@@ -277,6 +277,11 @@ p {
 }
 /* Title & Nav Bar */
 .title-nav-bar {
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
   height: 60px;
   background-color: #2A3037;
 }
