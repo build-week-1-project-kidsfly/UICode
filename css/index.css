@@ -727,6 +727,75 @@ body {
     margin-top: 50px;
   }
 }
+.register-setup {
+  height: 1300px;
+  margin: 100px 0px 0px 35%;
+}
+@media (max-width: 800px) {
+  .register-setup {
+    margin: 100px 0px 0px 15%;
+  }
+}
+@media (max-width: 500px) {
+  .register-setup {
+    margin: 100px 0px 0px 15%;
+  }
+}
+.register-setup form {
+  margin-top: 20px;
+  height: 1000px;
+}
+.register-setup form p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.register-setup form .h2-setup {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  margin: 20px 0px 30px 0px;
+}
+.register-setup form input,
+.register-setup form #phoneNumber {
+  width: 290px;
+  height: 40px;
+  font-size: 1.7rem;
+  border: none;
+  border-bottom: 2px solid #E94472;
+  border-radius: 50px;
+  text-align: center;
+  margin: 15px 0px 0px 20%;
+}
+@media (max-width: 800px) {
+  .register-setup form input,
+  .register-setup form #phoneNumber {
+    width: 260px;
+    margin: 15px 0px 0px 25%;
+  }
+}
+@media (max-width: 500px) {
+  .register-setup form input,
+  .register-setup form #phoneNumber {
+    margin: 15px 0px 0px 13%;
+  }
+}
+.register-setup form #male1,
+.register-setup form #female1,
+.register-setup form #other1 {
+  width: 20px;
+}
+.register-setup form #passWordAgain {
+  margin-bottom: 50px;
+}
+.register-setup form #submit-setup {
+  margin: 0px 0px 0px 13%;
+}
+.register-setup form#register {
+  height: 1200px;
+  background-color: #E94472;
+}
 .set-up-main {
   width: 100%;
   height: 900px;
