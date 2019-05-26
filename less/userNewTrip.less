@@ -1,13 +1,36 @@
 body {
   height: 600px;
 }
-.register {
+.register-newTrip {
   //height: 600px;
   #registerNewTrip {
     background-color: @red;
-    margin-top: 80px;
+    margin: 100px 0px 0px 30%;
     width: 500px;
     height: 600px;
+    input {
+      width: 290px;
+      height: 40px;
+      font-size: 1.7rem;
+      border: none;
+      border-bottom: 2px solid @red;
+      border-radius: 50px;
+      text-align: center;
+      margin: 15px 0px 20px 20%;
+    }
+    label {
+      p {
+        color: white;
+        font-size: 2.0rem;
+        text-align: center;
+      }
+    }
+    @media @tablet {
+      margin: 100px 0px 0px 20%;
+    }
+    @media @phone {
+      margin: 100px 0px 0px 0%;
+    }
   }
   div#newTrip.register {
     width: 100%;
